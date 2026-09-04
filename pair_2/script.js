@@ -95,6 +95,7 @@
 // console.log(day);
 //_______________________________________
 
+//_______________________________________
 let productName = prompt("Enter your product name");
 let productPrice = +prompt("Enter your product price");
 let productCount = +prompt("Enter your product count");
@@ -121,7 +122,7 @@ if (deliveryType === "courier") {
 } else if (deliveryType === "post") {
     deliveryCost = 100;
 }
-
 let grandTotal = totalPrice + deliveryCost;
 
 alert(`Загальна сума: ${grandTotal}`);
+//_______________________________________
