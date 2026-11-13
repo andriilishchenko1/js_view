@@ -1,1 +1,1 @@
-# js_view
+# js_vue
